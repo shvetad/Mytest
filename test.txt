@@ -1,0 +1,9 @@
+
+=CONCATENATE("20",(RIGHT(K2,3)))==year
+
+=MID(K2,5,2)===date
+
+=MONTH(LEFT(K2,3)&1)===month
+
+
+=IF(N=-1,(Now-K2),-1)
